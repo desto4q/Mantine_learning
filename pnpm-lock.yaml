@@ -20,6 +20,9 @@ dependencies:
   react-router-dom:
     specifier: ^6.22.1
     version: 6.22.1(react-dom@18.2.0)(react@18.2.0)
+  use-request:
+    specifier: ^0.1.4
+    version: 0.1.4(react@18.2.0)
   webfontloader:
     specifier: ^1.6.28
     version: 1.6.28
@@ -2029,6 +2032,15 @@ packages:
       '@types/react': 18.2.55
       react: 18.2.0
       use-isomorphic-layout-effect: 1.1.2(@types/react@18.2.55)(react@18.2.0)
+    dev: false
+
+  /use-request@0.1.4(react@18.2.0):
+    resolution: {integrity: sha512-tOQ9D+mmImWfbb6cEx+2FRLawcNpHUXJmfPasjoUwY7D7RhKDMgCvtlnAVh+f3DZkmeYGIJUuG+zUicSogTRpg==}
+    engines: {node: '>=8', npm: '>=5'}
+    peerDependencies:
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+    dependencies:
+      react: 18.2.0
     dev: false
 
   /use-sidecar@1.1.2(@types/react@18.2.55)(react@18.2.0):
